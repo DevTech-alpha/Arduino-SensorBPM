@@ -46,7 +46,7 @@ Desenvolvemos um programa Arduino para monitorar a frequência cardíaca usando 
 ![Circuito Diagrama](https://raw.githubusercontent.com/DSantosxTech/sensor-de-batimentos/main/github/Circuito%20Diagrama.png)
 
 ## Assista o funcionamento no vídeo abaixo:
-[![Youtube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/shorts/8-nIhp7vw5Y?si=Inq4S-i6j-86-ig-)
+[![Youtube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/shorts/XUnM2_iGVNA?si=ZwaqqHhv3dkJSGIT)
 
 ## Aprenda como fazer assistindo o tutorial:
 [![Youtube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/x_fcC0qvXmI?si=grnr9d38WYIHxS77)
