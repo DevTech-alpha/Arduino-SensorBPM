@@ -1,4 +1,4 @@
-# Monitor Cardíaco com Arduino
+# Monitor Cardíaco com Arduino - Complemento para o Aplicativo HeartCare
 
 Desenvolvemos um programa Arduino para monitorar a frequência cardíaca usando um sensor de pulso e um display LCD com comunicação I2C. A frequência cardíaca é medida através do sinal do sensor de pulso, sendo os resultados exibidos no LCD.
 
