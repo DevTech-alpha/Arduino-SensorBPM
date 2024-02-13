@@ -1,11 +1,11 @@
 # Monitor Cardíaco com Arduino - Complemento para o Aplicativo HeartCare
 
-Desenvolvemos um programa Arduino para monitorar a frequência cardíaca usando um sensor de pulso e um display LCD com comunicação I2C. A frequência cardíaca é medida através do sinal do sensor de pulso, sendo os resultados exibidos no LCD.
+Este programa Arduino monitora a frequência cardíaca com um sensor de pulso e um display LCD I2C.
 
 ## Componentes Necessários
 - Placa Arduino
 - Sensor de Pulso
-- LCD com suporte I2C (usando a biblioteca LiquidCrystal_I2C)
+- LCD com suporte I2C
 - LED (opcional)
 - Fios
 
@@ -14,14 +14,14 @@ Desenvolvemos um programa Arduino para monitorar a frequência cardíaca usando 
 - LiquidCrystal_I2C.h
 
 ## Instruções de Conexão
-1. Conecte o sensor de pulso ao Pino Analógico A0.
-2. Conecte o LED ao Pino Digital 13 (opcional).
-3. Conecte o LCD com suporte I2C aos pinos I2C no Arduino.
+1. Sensor de pulso: Pino Analógico A0.
+2. LED (opcional): Pino Digital 13.
+3. LCD com suporte I2C: Conecte aos pinos I2C do Arduino.
 
 ## Visão Geral do Código
-- O programa inicializa variáveis, pinos e o LCD.
-- Configura a detecção de pulso baseada em interrupção para ler o sinal analógico do sensor.
-- O loop principal emite dados continuamente para o monitor serial e atualiza o LCD ao detectar um batimento cardíaco.
+- Inicialização de variáveis, pinos e LCD.
+- Configuração da detecção de pulso por interrupção.
+- Atualização contínua do monitor serial e do LCD ao detectar batimentos cardíacos.
 
 ## Funções Principais
 - `configurarInterrupcao()`: Configura a interrupção para detecção de pulso.
@@ -30,14 +30,11 @@ Desenvolvemos um programa Arduino para monitorar a frequência cardíaca usando 
 - `monitorSerialArduinoVisual()`: Mapeia dados do sensor para uma faixa visual (não utilizado atualmente).
 - `enviarDadosParaSerial()`: Envia dados para o monitor serial.
 
-## Rotina de Serviço de Interrupção (ISR)
-- A ISR (`TIMER2_COMPA_vect`) lida com a detecção de pulso, calcula a frequência cardíaca e atualiza variáveis.
-
 ## Uso
-1. Conecte sensor de pulso, LED e LCD ao Arduino conforme as instruções.
-2. Carregue o código no Arduino usando a IDE Arduino.
-3. Abra o monitor serial para visualizar dados de pulso e frequência cardíaca.
-4. O LCD exibirá informações sobre batimentos cardíacos quando detectados.
+1. Conecte os componentes conforme as instruções.
+2. Carregue o código na placa Arduino.
+3. Abra o monitor serial para visualizar os dados.
+4. O LCD exibirá informações sobre os batimentos cardíacos.
 
 ## Circuito
 
