@@ -36,10 +36,8 @@ Este programa Arduino monitora a frequência cardíaca com sensor de pulso e dis
 3. Abra o monitor serial para visualizar os dados.
 4. O LCD exibirá informações sobre os batimentos cardíacos.
 
-## Circuito
-![Foto 1](https://raw.githubusercontent.com/DSantosxTech/sensor-de-batimentos/main/github/galeria%20(1).jpeg)
-![Foto 2](https://raw.githubusercontent.com/DSantosxTech/sensor-de-batimentos/main/github/galeria%20(2).jpeg)
-![Circuito Diagrama](https://raw.githubusercontent.com/DSantosxTech/sensor-de-batimentos/main/github/Circuito%20Diagrama.png)
+
+![Circuito Diagrama](https://raw.githubusercontent.com/DevTech-alpha/HeartCare-arduino/main/heart.png)
 
 
 ## Tecnologias e Linguagens
