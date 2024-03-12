@@ -48,8 +48,3 @@ Este programa Arduino monitora a frequência cardíaca com sensor de pulso e dis
 
 ## Referências e documentações
 | **[C++](https://en.cppreference.com/w/)**
-## Vídeo Demonstrativo 
-[Assista](https://youtube.com/shorts/XUnM2_iGVNA?si=ZwaqqHhv3dkJSGIT)
-
-## Tutorial
-[Aprenda](https://youtu.be/x_fcC0qvXmI?si=grnr9d38WYIHxS77)
