@@ -41,7 +41,16 @@ Este programa Arduino monitora a frequência cardíaca com sensor de pulso e dis
 ![Foto 2](https://raw.githubusercontent.com/DSantosxTech/sensor-de-batimentos/main/github/galeria%20(2).jpeg)
 ![Circuito Diagrama](https://raw.githubusercontent.com/DSantosxTech/sensor-de-batimentos/main/github/Circuito%20Diagrama.png)
 
-## Vídeo Demonstrativo
+
+## Tecnologias e Linguagens
+<div style="display: inline_block">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original-wordmark.svg" height="50" width="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="50" width="60"/>
+</div>
+
+## Referências e documentações
+| **[C++](https://en.cppreference.com/w/)**
+## Vídeo Demonstrativo 
 [Assista](https://youtube.com/shorts/XUnM2_iGVNA?si=ZwaqqHhv3dkJSGIT)
 
 ## Tutorial
